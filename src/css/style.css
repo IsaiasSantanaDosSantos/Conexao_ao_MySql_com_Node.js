@@ -1,0 +1,58 @@
+/* Global */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.primary-color {
+color: #0000F0;
+}
+
+.secondary-color {
+ color: #0000BD;
+}
+
+.fundo-primary {
+    background-color: #313137;
+}
+
+.fundo-secondary {
+background-color: #000000;
+}
+
+.font-color-primary {
+    color: #FFF;
+}
+
+.font-color-secondary {
+    color: #000000;
+}
+
+/* SLIDER */
+ .slider-container {
+     position: relative;
+     height: 600px;
+ }
+
+ .carousel-caption {    
+    position: absolute;
+    bottom: 50%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+/* Formulario */
+.formulario {
+    position: absolute;
+    bottom: 0;
+    display: none;
+}

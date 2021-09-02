@@ -28,9 +28,14 @@ const Pagamento = require('./models/Pagamento')
     app.use(bodyParser.json())
 
     //Rotas
+    /*
     app.get('/cad-pagamento', function(req, res) {
             res.render('cad-pagamento')
         })
+        */
+    app.get('/cad-pagamento', function(req, res) {
+        res.sendFile(__dirname + './views/cad-pagamento.handlebars')
+    })
         
 
     app.get('/pagamento', function(req, res) {
